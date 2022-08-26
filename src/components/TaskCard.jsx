@@ -12,7 +12,7 @@ function TaskCard({id, title, description}) {
                 <h1 className='text-xl font-bold capitalize'>{title}</h1>
                 <p className='text-gray-500 text-sm'>{description}</p>
                 <button className='bg-red-500 px-2 py-1 rounded-md mt-4 hover:bg-red-900' onClick={deleted(id)}>
-                    Eliminar Tarea
+                    Eliminar Tarea.
                 </button>
             </div>
     )
